@@ -53,7 +53,7 @@ export default function Login() {
               <input
                 id="phone"
                 type="tel"
-                placeholder="(856) 381-2930"
+                placeholder="(555) 555-5555"
                 value={phoneNumber}
                 onChange={(e) => setPhoneNumber(e.target.value)}
                 className="w-full bg-white/5 border border-white/10 text-white rounded-lg px-4 py-3 focus:ring-2 focus:ring-green-500 focus:border-transparent placeholder-white/40"
